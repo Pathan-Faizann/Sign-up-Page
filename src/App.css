@@ -25,6 +25,7 @@
   color: rgb(96, 188, 131);
   font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
+  margin-left: -48% !important;
 }
 .tagline{
   font-size: 42px;
@@ -73,7 +74,6 @@ p a{
   .main-container{
     width: 100%;
     padding: 0px !important;
-    /* margin-right: 27% !important; */
    
   }
   .first{
@@ -117,10 +117,7 @@ p a{
     padding: 0px 10px 70px 90px  ;
     width: 200px !important;
     margin-left: -10% !important;
-    /* padding-left: 350px !important; */
-    /* margin: 0px !important; */
-    /* padding-left: 148px;
-    padding-right: 10px; */
+   
   }
   .f-btn{
     scale: 0.8 !important;
