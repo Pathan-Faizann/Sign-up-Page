@@ -15,7 +15,7 @@
   height: 792px;
   padding-bottom: 100px !important;
 }
-.f-container{
+.main-container{
   width: 1160px;
   height: 792px;
   background-color: white;
@@ -70,26 +70,31 @@ p a{
   cursor: pointer;
 }
 @media (max-width:480px) {
-  .f-container{
-    width: auto;
+  .main-container{
+    width: 100%;
     padding: 0px !important;
+    /* margin-right: 27% !important; */
+   
   }
   .first{
-    width: 300px;
+    width: 200px !important;
+    padding: 0px 20px !important;
     scale: 0.9;
     font-size: 17px !important;
-    padding: 0px !important;
+    margin-left: -18%;
     border-radius: 25px;
+    scale: 0.8 !important;
   }
+ 
   .logo{
-    margin-left: 100px !important;
+    margin-left: 58% !important;
     font-size: 26px;
     text-align: center;
   }
   .reg-form{
     width: auto;
     padding: 0px !important;
-    margin: 0px !important;
+    margin-left: -9% !important;
     font-size: 18px;
   }
   .reg-form h2{
@@ -98,27 +103,38 @@ p a{
     margin-left: 5%;
   }
   .reg-form form{
-    scale: 0.9;
+    scale: 0.8;
     width: 300px;
-    margin-right: 20% !important;
+    margin-right: 50% !important;
 
+  }
+  form input{
+    width: 85% !important;
   }
   .tagline{
-    font-size: 18px;
-    text-align: center !important;
-    margin-right: 25% !important;
-    margin: 0px !important;
-    /* width: 100px; */
-    padding: 50px;
-    padding-left: 110px;
-    padding-right: 10px;
+    font-size: 20px;
+    text-align:center !important;
+    padding: 0px 10px 70px 90px  ;
+    width: 200px !important;
+    margin-left: -10% !important;
+    /* padding-left: 350px !important; */
+    /* margin: 0px !important; */
+    /* padding-left: 148px;
+    padding-right: 10px; */
   }
-  form button{
+  .f-btn{
     scale: 0.8 !important;
-
+    margin-left: -10% !important;
+    
   }
   .reg-form p{
     font-size: 12px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 50px;
+  }
+  .body{
+    background: transparent;
   }
   
   
